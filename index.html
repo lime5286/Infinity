@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Infinity</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+</head>
+<body class="nosel">
+    <div id="cashpar"><div id="cash"></div></div>
+    <div><!-- generators  -->
+      <div>
+        <div id="gen1" class="btn"></div>
+        <div id = "gen1m" class="btnm">Buy Max</div>
+        <div id = "genam" class ="genam"></div>
+      </div>
+      <div>
+        <div id="gen2" class="btn"></div>
+        <div id = "gen2m" class="btnm">Buy Max</div>
+        <div id = "genam2" class ="genam"></div>
+      </div>
+    </div>
+    <div id="save">Game saved</div>
+    <button type="button" name="button" onclick="sg()">save game</button>
+    <button type="button" name="button" onclick="lg()">load game</button>
+    <button type="button" name="button" onclick="reset()">reset game</button>
+    <button type="button" name="button" id="stop">Cheat</button>
+    <script type="text/javascript" src="OmegaNum.js"></script>
+    <script type="text/javascript" src="varibles.js"></script> <!-- этот всегда первый скрипт -->
+    <script type="text/javascript" src="func.js"></script> <!-- этот всегда второй скрипт -->
+    <script type="text/javascript" src="gen.js"></script>
+    <script type="text/javascript" src="main.js"></script> <!-- Этот всегда последний скрипт -->
+</body>
+</html>
